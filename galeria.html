@@ -19,43 +19,66 @@
     <title>Galeria</title>
 </head>
 
-<body class="body">
-    <header class="header">
-        <a href="./index.html" class="logo">
-            <img src="./img/logo-grande.png" alt="">
-            <h1>Alamo Deck Desing</h1>
-            <nav class="nav">
-                <ul class="flexUl">
-                    <li><input type="search" name="" id=""><input type="button" value="buscar"></li><br>
-                    <br>
-                    <li class="li5"><a href="./index.html">INICIO</a></li>
-                    <li class="li1"><a href="./productos.html">PRODUCTOS</a></li>
-                    <li class="li2"><a href="./galeria.html">GALERIA</a></li>
-                    <li class="li3"><a href="./Medios De Pago.html">MEDIOS DE PAGOS</a></li>
-                    <li class="li4"><a href="./contacto.html">CONTACTO</a></li>
+<body>
+    <div class="grilla">
 
-                </ul>
-            </nav>
-            <div class="galeria">
-                <img src="./img/modular.png" alt="">
-                <img src="./img/bajo.mesada.png" alt="">
-                <img src="./img/comoda.png" alt="">
+        <nav class="nav">
+            <!-- Logo en escritorio -->
+            <img src="./img/logo-grande.png" alt="NASA" class="logoDesktop">
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./productos.html">PRODUCTOS</a></li>
+                <li><a href="./galeria.html">GALERIA</a></li>
+                <li><a href="./Medios De Pago.html">MEDIOS DE PAGO</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <img src="./img/modular.png" alt="">
+            <img src="./img/bajo.mesada.png" alt="">
+            <img src="./img/comoda.png" alt="">
+        </div>
+        </header>
+
+        <main class="header">
+            <h2>Fábrica de muebles de madera de paraíso, hacemos a medida ideal para tu hogar.
+                <br> Contactanos.
+                <br> Conseguí todo para tu living en un mismo lugar, somos fabricantes.
+            </h2>
+        </main>
+
+        <aside class="aside">
+            <h3>Notas relacionadas</h3>
+            <ul>
+                <li><a href="#">LINK 1</a></li>
+                <li><a href="#">LINK 2</a></li>
+                <li><a href="#">LINK 3</a></li>
+                <li><a href="#">LINK 4</a></li>
+                <li><a href="#">LINK 5</a></li>
+            </ul>
+        </aside>
+
+        <form action="#" method="GET" class="form">
+            <h3 class="wow animate__animated animate__fadeInDown">¡SUSCRIBITE!</h3>
+            <div>
+                <input type="text" placeholder="Nombre completo">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="Enviar">
             </div>
-    </header>
+        </form>
 
-    <main>
-        <h2>Fábrica de muebles de madera de paraíso, hacemos a medida ideal para tu hogar.
-            <br> Contactanos.
-            <br> Conseguí todo para tu living en un mismo lugar, somos fabricantes.
-        </h2>
-    </main>
+        <footer class="footer">
+            <p>&copy comision 29275</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </footer>
 
-    <footer class="nav">
-        <ul class="flexUl">
-            <li class="li1">Facebook</li>
-            <li class="li2">Instagram</li>
-            <li class="li3">YouTube</li>
-    </footer>
+    </div>
+
+    <script src="./js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
